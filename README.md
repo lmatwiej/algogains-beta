@@ -23,3 +23,9 @@ If the "type" array includes "Bodyweight", the algorithm similarly creates a Bod
 Finally, if the "type" array includes "Cardio", the algorithm will create a Cardio section that consists of a targeted distance run intended to meet the user's desired intensity and allotted time. As with the other sections, this calculation is based on fitness levels, age, and weight.
 
 All the individual subsections are concatenated into a single list that is returned as part of a dict object containing total workout minutes and this exercise list.
+
+**Running the Code**
+
+This API currently runs on a Flask application on a pythonanywhere server. To run this code for yourself, you will need to download Flask and run "flask --app flask_app run".
+
+**Please note that I have a separate version of this project that runs on a Django server and utilizes a MySQL database. Please reach out if you are interested in that version, as it is currently not made available on GitHub.**
