@@ -1,7 +1,7 @@
 **Project Overview**
 
 Algo Gains is a Python algorithm that generates exercise recommendations for users based on their preferences and fitness levels.
-You can test the algorithm by visiting [https://www.elevathletics.com/algogains](url) or making a POST request to [http://lukaszjmat.pythonanywhere.com/algogains](url).
+You can test the algorithm by visiting [elevathletics.com/algogains](https://www.elevathletics.com/algogains) or making a POST request to http://lukaszjmat.pythonanywhere.com/algogains.
 
 If you choose to make the POST request yourself, please include the following variables in the JSON body:
 
